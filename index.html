@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title>PTT software</title>
+    <!--bootstrap css1 js2-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .banners{
+            height: 100vh;           
+            background: linear-gradient(10deg,steelblue 25%,skyblue 10%);
+            background-size: 5%;
+            transition: all,1s;
+        }
+
+        .banners:hover{
+            background-position: center;
+            background-size: 6%;
+        }
+
+        .buttons:hover{
+            background: orchid;           
+        }
+
+        .cardhovers:hover{
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <!---Start Header Section-->
+    <header>
+        <!--Start navbar-->
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <a href="index.html" class="navbar-brand">
+                <img src="assets/photos.png" width="40px">
+                <span>PTT Software Co, ltd.,</span>
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><i class="navbar-toggler-icon"></i></button>
+
+            <div id="nav" class="navbar-collapse collapse justify-content-between">
+                <ul class="navbar-nav ps-3">
+                    <li class="nav-item"><a href="#home" class="nav-link text-uppercase fw-bold text-light">Home</a></li>
+                    <li class="nav-item"><a href="#client" class="nav-link text-uppercase fw-bold text-light">Clients</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link text-uppercase fw-bold text-light">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#software" class=" dropdown-toggle nav-link text-uppercase fw-bold" data-bs-toggle="dropdown">Software</a>
+                            <ul class="dropdown-menu ps-3">
+                                <li><a href="#Software" class="dropdown-item">Android App</a></li>
+                                <li><a href="#Software" class="dropdown-item">IOS App</a></li>
+                                <li><a href="#Software" class="dropdown-item">LINUX App</a></li>
+                                <li><a href="#Software" class="dropdown-item">Windows App</a></li>
+                            </ul>
+                    </li>
+                    <li class="nav-item"><a href="#price" class="nav-link text-uppercase fw-bold text-light">Pricing</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link text-uppercase fw-bold text-light">Contact</a></li>
+                </ul>
+    
+              <div class="ps-3">  <button type="button" class="btn btn-outline-light btn-sm ">Sign-up</button></div>
+            </div>
+        </nav>
+        <!--End navbar-->
+
+        <!--Start banner-->
+        <section id="home">
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center banners">
+                    <div class="col-md-10 text-center">
+                        <h2 class="text-capitalize display-4"><span class="fw-bold text-primary">PTT</span><span class="text-white"> software development company :</span></h2>
+                        <h2 class="text-light fst-italic fw-light">We help companies to digitilize their businesses</h2>
+                        <p class="text-secondary">Properly set process. Transparent cooperation. Predicitable delivery</p>
+                        <a href="#" class="btn btn-warning btn-lg rounded-0 px-3 mt-3 buttons">Get in touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End banner-->
+    </header>
+    <!--End Header Section-->
+    
+    <!--Start client section-->
+    <section id="client" class="bg-light">
+        <!--start title-->
+        <div class="col-12 text-center mt-4">
+            <h1 class="text-warning display-4">Our Clients</h1>
+            <p class="text-muted lead ">Projects We Successfully Developed. One look is worth a thousand words.</p>
+        </div>
+        <!--end title-->
+
+        <div class="row text-center px-5 pb-5">
+            <div class="col-md-3 col-sm-6 mx-auto mt-3 ">
+                <div class="card bg-info cardhovers">
+                    <div class="card-body">
+                        <h5 class="card-title">Toyota</h5>
+                        <h6 class="card-subtitle text-muted">vehicles</h6>
+                        <p class="mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard.
+                           </p>
+                        <a href="#" class="card-link">Website</a>
+                        <a href="#" class="card-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mx-auto mt-3 ">
+                <div class="card bg-info cardhovers">
+                    <div class="card-body">
+                        <h5 class="card-title">Mezdax</h5>
+                        <h6 class="card-subtitle text-muted">vehicles</h6>
+                        <p class="mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard.
+                           </p>
+                        <a href="#" class="card-link">Website</a>
+                        <a href="#" class="card-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mx-auto mt-3 ">
+                <div class="card bg-info cardhovers">
+                    <div class="card-body">
+                        <h5 class="card-title">Suzuki</h5>
+                        <h6 class="card-subtitle text-muted">vehicles</h6>
+                        <p class="mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard.
+                           </p>
+                        <a href="#" class="card-link">Website</a>
+                        <a href="#" class="card-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mx-auto mt-3 ">
+                <div class="card bg-info cardhovers">
+                    <div class="card-body">
+                        <h5 class="card-title">Kia</h5>
+                        <h6 class="card-subtitle text-muted">vehicles</h6>
+                        <p class="mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard.
+                           </p>
+                        <a href="#" class="card-link">Website</a>
+                        <a href="#" class="card-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mx-auto mt-3 ">
+                <div class="card bg-warning cardhovers">
+                    <div class="card-body">
+                        <h5 class="card-title">Mi</h5>
+                        <h6 class="card-subtitle text-muted">Communication Technology</h6>
+                        <p class="mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard.
+                           </p>
+                        <a href="#" class="card-link">Website</a>
+                        <a href="#" class="card-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mx-auto mt-3 ">
+                <div class="card bg-warning cardhovers">
+                    <div class="card-body">
+                        <h5 class="card-title">Sony</h5>
+                        <h6 class="card-subtitle text-muted">Communication Technology</h6>
+                        <p class="mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard.
+                           </p>
+                        <a href="#" class="card-link">Website</a>
+                        <a href="#" class="card-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mx-auto mt-3 ">
+                <div class="card bg-warning cardhovers">
+                    <div class="card-body">
+                        <h5 class="card-title">Oppo</h5>
+                        <h6 class="card-subtitle text-muted">Communication Technology</h6>
+                        <p class="mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard.
+                           </p>
+                        <a href="#" class="card-link">Website</a>
+                        <a href="#" class="card-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mx-auto mt-3 ">
+                <div class="card bg-warning cardhovers">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung</h5>
+                        <h6 class="card-subtitle text-muted">Communication Technology</h6>
+                        <p class="mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard.
+                           </p>
+                        <a href="#" class="card-link">Website</a>
+                        <a href="#" class="card-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+   
+        </div>
+    </section> 
+
+
+    <hr>   
+    <!--End client section-->
+    
+    <!-- Start Software section-->
+    <section id="software" class=" p-5">
+        <div class="container-fluid">
+
+            <!--start title-->
+        <div class="col-12 text-center mt-4">
+            <h1 class="text-warning display-4">Software</h1>
+            <p class="text-muted lead ">We design any interfaces for different types of projects and devices</p>
+        </div>
+        <!--end title-->
+
+
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-6 col-sm-12 px-5 mb-5 mx-auto">
+                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDeFTSvxkHGJaVXSoTCbXgnOZzXb3Tojg5BzObSXEU-Q&s" alt="" class="img-thumbnail">
+                   <h3 class="text-warning my-3">Android Application </h3>
+                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 px-5 mb-5 mx-auto">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcI16fecG0PFqMBSgehyMbqtNF7GpQm9_UXQ&usqp=CAU" alt="" class="img-thumbnail">
+                    <h3 class="text-warning my-3">IOS Application </h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                 </div>
+
+                 <div class="col-lg-3 col-md-6 col-sm-12 px-5 mb-5 mx-auto">
+                    <img src="https://itsfoss.com/wp-content/uploads/2016/10/must-have-essential-application-for-linux-users.jpg" alt="" class="img-thumbnail">
+                    <h3 class="text-warning my-3">Linux Application </h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                 </div>
+
+                 <div class="col-lg-3 col-md-6 col-sm-12 px-5 mb-5 mx-auto">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHmXcL1vw1aPkM9BWv-YG392JVP5uluUVJqg&usqp=CAU" alt="" class="img-thumbnail">
+                    <h3 class="text-warning my-3">Windows Application </h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                 </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End  Software section-->
+
+<!--Start team section-->
+    <section id="about" class="about bg-secondary p-2">
+        <div class="container-fluid">
+            <!--start title-->
+        <div class="col-12 text-center mt-4">
+            <h1 class="text-warning display-4">Team</h1>
+        </div>
+        <!--end title-->
+
+        <div class="row ">
+            <div class="col-lg-4 col-sm-10 mx-auto mb-5">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ748R3VONIGvodOuRurgFTDwAAN29weIEMjQ&usqp=CAU" alt="">
+                   <div class="card-body">
+                        <div class="card-title">
+                           <h2 class="text-muted"> MrS, Pyae Phyoe Aung</h2>
+                        </div>
+                        <div class="card-subtitle">
+                        <p class="lead">Founder and CEO</p>
+                        </div>
+                        <div class="float-end">
+                            <a href="#"><i class="fab fa-facebook fa-2x text-primary"></i></a>
+                            <a href="#"><i class="fab fa-twitter fa-2x text-info"></i></a>
+                            <a href="#"><i class="fab fa-youtube fa-2x text-danger"></i></a>
+                        </div>
+                   </div>
+                   
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-10 mx-auto mb-5">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ748R3VONIGvodOuRurgFTDwAAN29weIEMjQ&usqp=CAU" alt="">
+                   <div class="card-body">
+                        <div class="card-title">
+                           <h2 class="text-muted"> MrS, Pyae Phyoe Aung</h2>
+                        </div>
+                        <div class="card-subtitle">
+                        <p class="lead">Founder and CEO</p>
+                        </div>
+                        <div class="float-end">
+                            <a href="#"><i class="fab fa-facebook fa-2x text-primary"></i></a>
+                            <a href="#"><i class="fab fa-twitter fa-2x text-info"></i></a>
+                            <a href="#"><i class="fab fa-youtube fa-2x text-danger"></i></a>
+                        </div>
+                   </div>
+                   
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-10 mx-auto mb-5">
+                <div class="card">
+                    <img src="data:image/jpeg;base64,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" alt="">
+                   <div class="card-body">
+                        <div class="card-title">
+                           <h2 class="text-muted"> MrS, Pyae Phyoe Aung</h2>
+                        </div>
+                        <div class="card-subtitle">
+                        <p class="lead">Founder and CEO</p>
+                        </div>
+                        <div class="float-end">
+                            <a href="#"><i class="fab fa-facebook fa-2x text-primary"></i></a>
+                            <a href="#"><i class="fab fa-twitter fa-2x text-info"></i></a>
+                            <a href="#"><i class="fab fa-youtube fa-2x text-danger"></i></a>
+                        </div>
+                   </div>
+                   
+                </div>
+            </div>
+
+        </div>
+
+
+
+        </div>
+
+
+    </section>
+<!--End about section-->
+
+<!--Start public section-->
+<section class="p-4"  >
+    <div class="container-fluid">
+        <!--start title-->
+        <div class="col-12 text-center mt-4">
+            <h1 class="text-warning display-4">Public Interest</h1>
+            <p class="text-muted lead ">We design any interfaces for different types of projects and devices</p>
+        </div>
+        <!--end title-->
+        <div class="col-lg-6 col-sm-10 mx-auto">
+            <h3>Ebook</h3>
+            <div class="progress">
+                <div class="progress-bar bg-primary progress-bar-striped" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>   
+            </div>     
+        </div>
+
+        <div class="col-lg-6 col-sm-10 mx-auto my-3">
+            <h3>Android Application</h3>
+            <div class="progress">
+                <div class="progress-bar bg-secondary progress-bar-striped " style="width: 25%;" aria-valuenow="25%" aria-valuemin="0" aria-valuemax="100">25%</div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-sm-10 mx-auto">
+            <h3>IOS Application</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-success" style="width: 15% ;" aria-valuenow=15% aria-value-min="0" aria-value-max="100">15%</div>
+            </div>
+            
+        </div>
+
+        <div class="col-lg-6 col-sm-10 mx-auto my-3">
+            <h3>Linux Application</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger" style="width: 5% ;" aria-valuenow=5% aria-value-min="0" aria-value-max="100">5%</div>
+            </div>
+            
+        </div>
+
+        <div class="col-lg-6 col-sm-10 mx-auto">
+            <h3>Windows Application</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-info" style="width: 35% ;" aria-valuenow=35% aria-value-min="0" aria-value-max="100">35%</div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!--Start public section-->
+
+<!--Start Princing section-->
+<section id="price" class="about bg-secondary p-4">
+    <div class="container-fluid">
+        <!--start title-->
+        <div class="col-12 text-center mt-4">
+            <h1 class="text-warning display-4">Public Interest</h1>
+            <p class="text-light lead ">We design any interfaces for different types of projects and devices</p>
+        </div>
+        <!--end title-->
+
+        <div class="row text-center">
+            <div class="col-lg-4 col-sm-12 mx-auto mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase">blog site/free</h5>
+                        <h6>$0/month</h6>
+                            <ul class="list-group">
+                                <li class="list-group-item">Single User</li>
+                                <li class="list-group-item">5GB storage</li>
+                                <li class="list-group-item">Unlimited public projects</li>
+                                <li class="list-group-item">Community access</li>
+                                <li class="list-group-item">Unlimited Private project</li>
+                                <li class="list-group-item">Dedicated phone support</li>
+                                <li class="list-group-item">Free Subdomain</li>
+                                <li class="list-group-item">Monthly Status reports</li>
+                            </ul>
+                            <div class="d-grid"><a href="#" class="btn btn-warning list-grid text-center">Check out</a></div>
+                            
+                    </div>    
+                        
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-12 mx-auto mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase">ecommerce site/plus</h5>
+                        <h6>$0/month</h6>
+                            <ul class="list-group">
+                                <li class="list-group-item fw-bold">5 User</li>
+                                <li class="list-group-item">5GB storage</li>
+                                <li class="list-group-item">Unlimited public projects</li>
+                                <li class="list-group-item">Community access</li>
+                                <li class="list-group-item">Unlimited Private project</li>
+                                <li class="list-group-item">Dedicated phone support</li>
+                                <li class="list-group-item">Free Subdomain</li>
+                                <li class="list-group-item">Monthly Status reports</li>
+                            </ul>
+                            <div class="d-grid"><a href="#" class="btn btn-warning list-grid text-center">Check out</a></div>
+                    </div>    
+                        
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-4 col-sm-12 mx-auto mb-4 ">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase">dynamic site/pro</h5>
+                        <h6>$0/month</h6>
+                            <ul class="list-group">
+                                <li class="list-group-item fw-bold">Unlimited User</li>
+                                <li class="list-group-item">5GB storage</li>
+                                <li class="list-group-item">Unlimited public projects</li>
+                                <li class="list-group-item">Community access</li>
+                                <li class="list-group-item">Unlimited Private project</li>
+                                <li class="list-group-item">Dedicated phone support</li>
+                                <li class="list-group-item">Free Subdomain</li>
+                                <li class="list-group-item">Monthly Status reports</li>
+                            </ul>
+                            <div class="d-grid"><a href="#" class="btn btn-warning list-grid text-center">Check out</a></div>
+                    </div>    
+                        
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+</section>
+<!--End Princing section-->
+
+
+<!--Start contact section -->
+<section id="contact" class="p-4">
+    <div class="container-fluid">
+        <div class="container-fluid">
+            <!--start title-->
+            <div class="col-12 text-center mt-4">
+                <h1 class="text-warning display-4">Contact us</h1>
+                <p class="text-primary lead ">We design any interfaces for different types of projects and devices</p>
+            </div>
+            <!--end title-->
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 mx-auto">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Office location</h3>
+                        </div>
+                        <div class="card-body"></div>
+                        <div class="card-footer">
+                            <p>phone: 0942204225</p>
+                            <p>Email: info@knowledgesharing.com</p>
+                            <p>Address: No123, Myittar St, Mandalay </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-12 mx-auto">
+                    <div  class="text-center bg-danger text-light" >
+                        <h1>Get Questions</h1>
+                        <h3>Stayed connected</h3>
+                    </div>
+
+                    <form action="" method="" class="">
+                        <div class="col-12 ">
+                            <label for="">Name</label>
+                            <input type="text" name="" id="" placeholder="Enter your name" class="form-control form-control-sm rounded-0">
+                        </div>
+
+                        <div class="col-12 my-3">
+                            <label for="">Email</label>
+                            <input type="text" name="" id="" placeholder="Enter your Email" class="form-control form-control-sm rounded-0">
+                        </div>
+
+                        <div class="col-12 ">
+                            <label for="">Message</label>
+                            <textarea type="text" name="" id="" placeholder="Enter your message here" class="form-control form-control-sm rounded-0"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </div>
+
+</section>
+<!--Start contact section -->
+
+<div class="col-12 bg-primary text-center p-2">
+    <p class="text-light">@copy 2022 - Made by DLT Co.,ltd</p>
+</div>
+
+
+
+    <!--bootstrap css1 js2-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
